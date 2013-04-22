@@ -1,0 +1,21 @@
+exec rpt_prc_inv_FinalPSchedule_VendorWise_SummaryReport  'Jul'
+exec rpt_prc_inv_FinalPSchedule_VendorWise_SummaryReport_ItemList 'Jul'
+
+------------------
+
+rpt_prc_inv_grn_dayWiseSum_excell_inventory
+
+192.168.3.138_Grn
+
+GRNCList
+GRNDList
+GRNIList
+GRNRQList
+GRNSupList
+
+
+
+rpt_prc_inv_grn_dayWiseSum_VendorWiseItemList_excell_inventory
+
+
+-----------------

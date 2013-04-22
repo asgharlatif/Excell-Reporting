@@ -1,0 +1,16 @@
+exec rpt_prc_inv_opening_excell_inventory
+
+
+GRN
+
+exec rpt_prc_inv_grn_dayWiseSum_excell_inventory
+exec rpt_prc_inv_grn_dayWiseSum_VendorWiseItemList_excell_inventory
+
+
+Issue
+
+exec  rpt_prc_inv_issue_dayWiseSum_excell_inventory 'Item'
+exec rpt_prc_inv_issue_dayWiseSum_excell_inventory 'Detail'
+
+
+exec  rpt_prc_inv_issue_dayWiseSum_excell_inventory 'OnlyItem'
